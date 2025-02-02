@@ -1,0 +1,53 @@
+$date
+	Sun Feb  2 15:42:56 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module multiplexer_sim $end
+$var wire 1 ! dout $end
+$var reg 3 " din [2:0] $end
+$var reg 2 # sel [1:0] $end
+$scope module uut $end
+$var wire 3 $ din [2:0] $end
+$var wire 2 % sel [1:0] $end
+$var wire 1 ! dout $end
+$scope function mux $end
+$var reg 3 & din [2:0] $end
+$var reg 2 ' sel [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b100 &
+b0 %
+b100 $
+b0 #
+b100 "
+0!
+$end
+#200
+1!
+b10 '
+b10 #
+b10 %
+#300
+0!
+b1 '
+b1 #
+b1 %
+#400
+x!
+b11 '
+b11 #
+b11 %
+#500
