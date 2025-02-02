@@ -1,0 +1,79 @@
+$date
+	Tue Jan 28 12:12:08 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module sevenseg_led_tb $end
+$var wire 7 ! s [6:0] $end
+$var reg 4 " a [3:0] $end
+$scope module uut $end
+$var wire 4 # a [3:0] $end
+$var wire 7 $ s [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11111 $
+b0 #
+b0 "
+b11111 !
+$end
+#100
+b110 !
+b110 $
+b1 "
+b1 #
+#200
+b1011011 !
+b1011011 $
+b10 "
+b10 #
+#300
+b1001111 !
+b1001111 $
+b11 "
+b11 #
+#400
+b1000110 !
+b1000110 $
+b100 "
+b100 #
+#500
+b1001101 !
+b1001101 $
+b101 "
+b101 #
+#600
+b1011101 !
+b1011101 $
+b110 "
+b110 #
+#700
+b111 !
+b111 $
+b111 "
+b111 #
+#800
+b1011111 !
+b1011111 $
+b1000 "
+b1000 #
+#900
+b1001111 !
+b1001111 $
+b1001 "
+b1001 #
+#1000
+b11111 !
+b11111 $
+b0 "
+b0 #
+#1100
