@@ -78,3 +78,29 @@ module state_mem(
     assign out = (cs == `EXEC) ? (mem_data + 2) : 16'b0;
 
 endmodule
+
+module state_mem_sim;
+    reg clk, reset, run, halt;
+    wire [15:0] out;
+
+    state_mem state_mem_inst(
+        .clk(clk),
+        .reset(reset),
+        .run(run),
+        .halt(halt),
+        .out(out)
+    );
+
+    initial begin
+        $dumpfile("state_mem.vcd");
+        $dumpvars(0, state_mem_sim);
+    end
+
+    initial begin
+        clk = 0; halt = 0; reset = 0; run = 0;
+        #100 reset = 1; run = 1;
+        #900 $finish;
+    end
+
+    always #50 clk = ~clk;
+endmodule

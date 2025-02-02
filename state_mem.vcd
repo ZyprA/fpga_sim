@@ -1,0 +1,161 @@
+$date
+	Sun Feb  2 21:18:43 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module state_mem_sim $end
+$var wire 16 ! out [15:0] $end
+$var reg 1 " clk $end
+$var reg 1 # halt $end
+$var reg 1 $ reset $end
+$var reg 1 % run $end
+$scope module state_mem_inst $end
+$var wire 1 " clk $end
+$var wire 1 # halt $end
+$var wire 1 $ reset $end
+$var wire 1 % run $end
+$var wire 16 & out [15:0] $end
+$var wire 16 ' mem_data [15:0] $end
+$var wire 2 ( cs [1:0] $end
+$var reg 12 ) addr [11:0] $end
+$scope module mem_inst $end
+$var wire 12 * addr [11:0] $end
+$var wire 1 " clk $end
+$var wire 16 + d [15:0] $end
+$var wire 1 , load $end
+$var parameter 32 - AWIDTH $end
+$var parameter 32 . DWIDTH $end
+$var parameter 32 / WORDS $end
+$var reg 16 0 q [15:0] $end
+$var integer 32 1 i [31:0] $end
+$upscope $end
+$scope module state_inst $end
+$var wire 1 " clk $end
+$var wire 1 # halt $end
+$var wire 1 $ reset $end
+$var wire 1 % run $end
+$var reg 2 2 cs [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000000000000 /
+b10000 .
+b1100 -
+$end
+#0
+$dumpvars
+b0 2
+b1000000000000 1
+bx 0
+0,
+b0 +
+b0 *
+b0 )
+b0 (
+bx '
+b0 &
+0%
+0$
+0#
+0"
+b0 !
+$end
+#50
+b0 '
+b0 0
+1"
+#100
+0"
+1%
+1$
+#150
+b1 (
+b1 2
+1"
+#200
+0"
+#250
+b10 !
+b10 &
+b10 (
+b10 2
+1"
+#300
+0"
+#350
+b0 !
+b0 &
+b1 (
+b1 2
+b1 )
+b1 *
+1"
+#400
+0"
+#450
+b11 !
+b11 &
+b1 '
+b1 0
+b10 (
+b10 2
+1"
+#500
+0"
+#550
+b0 !
+b0 &
+b1 (
+b1 2
+b10 )
+b10 *
+1"
+#600
+0"
+#650
+b100 !
+b100 &
+b10 '
+b10 0
+b10 (
+b10 2
+1"
+#700
+0"
+#750
+b0 !
+b0 &
+b1 (
+b1 2
+b11 )
+b11 *
+1"
+#800
+0"
+#850
+b101 !
+b101 &
+b11 '
+b11 0
+b10 (
+b10 2
+1"
+#900
+0"
+#950
+b0 !
+b0 &
+b1 (
+b1 2
+b100 )
+b100 *
+1"
+#1000
+0"
