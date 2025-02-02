@@ -1,0 +1,58 @@
+$date
+	Sun Feb  2 15:25:11 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module adder4_sim $end
+$var wire 4 ! s [3:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$scope module a4 $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 4 & s [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#100
+b1 !
+b1 &
+b1 "
+b1 $
+#200
+b10 !
+b10 &
+b10 "
+b10 $
+#300
+b1001 !
+b1001 &
+b111 #
+b111 %
+#400
+b100 !
+b100 &
+b1101 "
+b1101 $
+#500
+b10 !
+b10 &
+b1011 "
+b1011 $
+#600
