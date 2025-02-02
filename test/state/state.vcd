@@ -1,0 +1,71 @@
+$date
+	Sun Feb  2 20:17:39 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module state_sim $end
+$var wire 2 ! cs [1:0] $end
+$var reg 1 " clk $end
+$var reg 1 # halt $end
+$var reg 1 $ reset $end
+$var reg 1 % run $end
+$scope module state_inst $end
+$var wire 1 " clk $end
+$var wire 1 # halt $end
+$var wire 1 $ reset $end
+$var wire 1 % run $end
+$var reg 2 & cs [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+0%
+0$
+0#
+0"
+b0 !
+$end
+#50
+1"
+#100
+0"
+1$
+#150
+1"
+#200
+0"
+1%
+#250
+b1 !
+b1 &
+1"
+#300
+0"
+0%
+#350
+b10 !
+b10 &
+1"
+#400
+0"
+1#
+#450
+b0 !
+b0 &
+1"
+#500
+0"
+0#
+#550
+1"
+#600
+0"

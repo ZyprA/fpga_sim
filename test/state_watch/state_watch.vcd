@@ -1,0 +1,225 @@
+$date
+	Sun Feb  2 20:50:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module state_watch_sim $end
+$var wire 1 ! sec_reset $end
+$var wire 1 " min_inc $end
+$var wire 1 # hour_inc $end
+$var wire 2 $ cs [1:0] $end
+$var reg 1 % SW1 $end
+$var reg 1 & SW2 $end
+$var reg 1 ' SW3 $end
+$var reg 1 ( clk $end
+$var reg 1 ) reset $end
+$scope module state_watch_inst $end
+$var wire 1 % SW1 $end
+$var wire 1 & SW2 $end
+$var wire 1 ' SW3 $end
+$var wire 1 ( clk $end
+$var wire 1 # hour_inc $end
+$var wire 1 " min_inc $end
+$var wire 1 ) reset $end
+$var wire 1 ! sec_reset $end
+$var reg 2 * cs [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+0)
+0(
+0'
+0&
+0%
+b0 $
+0#
+0"
+0!
+$end
+#11
+1(
+#22
+0(
+#33
+1(
+#44
+0(
+#55
+1(
+#66
+0(
+#77
+1(
+#88
+0(
+#99
+1(
+#100
+1)
+#110
+0(
+#121
+1(
+#132
+0(
+#143
+1(
+#154
+0(
+#165
+1(
+#176
+0(
+#187
+1(
+#198
+0(
+#200
+1&
+#209
+b1 $
+b1 *
+1(
+#220
+0(
+#230
+0&
+#231
+1(
+#242
+0(
+#253
+1(
+#264
+0(
+#275
+1(
+#286
+0(
+#297
+1(
+#308
+0(
+#319
+1(
+#330
+0(
+1'
+#341
+b11 $
+b11 *
+1(
+#352
+0(
+#360
+0'
+#363
+1(
+#374
+0(
+#385
+1(
+#396
+0(
+#407
+1(
+#418
+0(
+#429
+1(
+#440
+0(
+#451
+1(
+#460
+1'
+#462
+0(
+#473
+b10 $
+b10 *
+1(
+#484
+0(
+#490
+0'
+#495
+1(
+#506
+0(
+#517
+1(
+#528
+0(
+#539
+1(
+#550
+0(
+#561
+1(
+#572
+0(
+#583
+1(
+#590
+1'
+#594
+0(
+#605
+b1 $
+b1 *
+1(
+#616
+0(
+#620
+0'
+#627
+1(
+#638
+0(
+#649
+1(
+#660
+0(
+#671
+1(
+#682
+0(
+#693
+1(
+#704
+0(
+#715
+1(
+#720
+1!
+1%
+#726
+0(
+#737
+1(
+#748
+0(
+#759
+1(
+#770
+0(
+#781
+1(
+#792
+0(
+#803
+1(
+#814
+0(
+#820
